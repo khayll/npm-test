@@ -1,0 +1,25 @@
+{
+  "name": "npm-test",
+  "version": "1.0.0",
+  "description": "Testing my published npm packages",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khayll/npm-test.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "khayll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khayll/npm-test/issues"
+  },
+  "homepage": "https://github.com/khayll/npm-test#readme",
+  "devDependencies": {
+    "jsonmix": "^1.0.9"
+  }
+}
