@@ -6,14 +6,14 @@ Employee.prototype.getName = function() {
     return this.firstName + ' ' + this.lastName;
 };
 
-let json = {
+var json = {
     "firstName": "John",
     "lastName": "Doe",
     "salary": 100000,
     "age": 33	
 };
 
-let employee = jsonmix(json)
+var employee = jsonmix(json)
     .withObject(Employee)
     .build();
 
